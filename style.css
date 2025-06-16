@@ -198,3 +198,51 @@ button {
 button a {
   color: #1f242d;
 }
+/*End about page*/
+/*start skills page*/
+.container {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #504b38;
+  color: #fff;
+}
+.container .progress-container {
+  margin-bottom: 25px;
+}
+
+.container .progress-container h4 {
+  margin: 0 0 15px 15px;
+  letter-spacing: 0.5px;
+}
+
+.container .progress-container .progress-bar {
+  position: relative;
+  width: 500px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: 3px 4px 5px 0px rgba(248 243 217 / 0.75);
+}
+
+.container .progress-container .progress-bar span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  color: #504b38;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.7;
+  text-align: center;
+  border-radius: 30px;
+  background: linear-gradient(
+    90deg,
+    rgba(185, 178, 138, 1) 50%,
+    rgba(187, 178, 138, 1) 100%
+  );
+  transition: width 0.5s linear;
+}
