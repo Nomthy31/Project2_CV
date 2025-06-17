@@ -336,3 +336,101 @@ h1 {
 }
 /*end projects page*/
 /*start contact page*/
+.form {
+  width: 50%;
+  margin-top: 90px;
+  margin-left: 400px;
+  text-align: center;
+}
+.form h2 {
+  color: #fff;
+}
+form {
+  background-color: #ebe5c2;
+  padding: 5px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="tel"],
+textarea,
+input[type="submit"] {
+  width: 90%;
+  padding: 10px;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #b9b28a;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  color: #504b38;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #b9b28a;
+}
+
+input[type="submit"] {
+  background-color: #504b38;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+/*End Contact page*/
+/*start weather page*/
+.weather {
+  margin-top: 200px;
+}
+.weather h2 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+#location {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #d8c3a5;
+}
+
+#forecast {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.day {
+  background: #d8c3a5;
+  border-radius: 16px;
+  padding: 1rem;
+  width: 140px;
+  box-shadow: 0 4px 10px rgba(75, 46, 46, 0.15);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.day:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+}
+
+.temp {
+  font-size: 0.95rem;
+  margin: 0.2rem 0;
+}
+
+.date {
+  font-weight: bold;
+  font-size: 0.95rem;
+  margin-bottom: 0.3rem;
+}
