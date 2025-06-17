@@ -209,6 +209,11 @@ button a {
   background-color: #504b38;
   color: #fff;
 }
+.sub-title {
+  font-size: 30px;
+  padding-bottom: 5px;
+  margin-top: 80px;
+}
 .container .progress-container {
   margin-bottom: 25px;
 }
@@ -221,7 +226,7 @@ button a {
 .container .progress-container .progress-bar {
   position: relative;
   width: 500px;
-  height: 30px;
+  height: 20px;
   border-radius: 30px;
   background-color: white;
   box-shadow: 3px 4px 5px 0px rgba(248 243 217 / 0.75);
@@ -246,16 +251,20 @@ button a {
   );
   transition: width 0.5s linear;
 }
+i {
+  font-size: 30px;
+}
 /*End skills page*/
 /*Start project page*/
 .wrapper {
   margin-top: 30px;
   display: flex;
-  width: 100%;
+  width: 90%;
   justify-content: space-around;
+  margin-left: 80px;
 }
 .card {
-  width: 400px;
+  width: 300px;
   height: 480px;
   padding: 2rem 1rem;
   background: #504b38;
@@ -329,7 +338,7 @@ button a {
 .card .info .link:hover {
   box-shadow: 0 7px 10px #504b38;
 }
-h1 {
+.heading {
   margin-top: 100px;
   text-align: center;
   color: #fff;
@@ -344,10 +353,11 @@ h1 {
 }
 .form h2 {
   color: #fff;
+  margin-bottom: 10px;
 }
 form {
   background-color: #ebe5c2;
-  padding: 5px;
+  /*padding: 5px;*/
   border-radius: 12px;
   text-align: center;
 }
@@ -356,7 +366,7 @@ input[type="text"],
 input[type="tel"],
 textarea,
 input[type="submit"] {
-  width: 90%;
+  width: 70%;
   padding: 10px;
   margin-top: 0.5rem;
   margin-bottom: 1rem;

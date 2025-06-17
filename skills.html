@@ -27,32 +27,32 @@
       <div class="container">
         <h1 class="sub-title">My skills</h1>
         <div class="progress-container">
-          <h4><i class="bx bx-code-alt"></i>HTML, CSS, and JavaScript</h4>
+          <h4><i class="bx bx-code-alt"></i> HTML, CSS, and JavaScript</h4>
           <div class="progress-bar">
             <span data-width="70%"></span>
           </div>
         </div>
         <div class="progress-container">
-          <h4><i class="bx bxl-react"></i>Frondend Frameworks(React)</h4>
+          <h4><i class="bx bxl-react"></i> Frondend Frameworks(React)</h4>
           <div class="progress-bar">
             <span data-width="30%"></span>
           </div>
         </div>
         <div class="progress-container">
-          <h4><i class="bx bx-pencil"></i>Creative UI/UX Design</h4>
+          <h4><i class="bx bx-pencil"></i> Creative UI/UX Design</h4>
           <div class="progress-bar">
             <span data-width="70%"></span>
           </div>
         </div>
         <div class="progress-container">
-          <h4><i class="bx bxl-git"></i>Version Control with Git & GitHub</h4>
+          <h4><i class="bx bxl-git"></i> Version Control with Git & GitHub</h4>
           <div class="progress-bar">
             <span data-width="80%"></span>
           </div>
         </div>
         <div class="progress-container">
           <h4>
-            <i class="bx bx-bulb"></i>Problem-Solving & Analytical Thinking
+            <i class="bx bx-bulb"></i> Problem-Solving & Analytical Thinking
           </h4>
           <div class="progress-bar">
             <span data-width="90%"></span>
@@ -60,7 +60,7 @@
         </div>
         <div class="progress-container">
           <h4>
-            <i class="bx bxs-heart"></i>Continuous Learning & Growth Mindset
+            <i class="bx bxs-heart"></i> Continuous Learning & Growth Mindset
           </h4>
           <div class="progress-bar">
             <span data-width="100%"></span>
@@ -68,6 +68,13 @@
         </div>
       </div>
     </section>
-    <script src="index.js"></script>
+    <script>
+      const spans = document.querySelectorAll(".progress-bar span");
+
+      spans.forEach((span) => {
+        span.style.width = span.dataset.width;
+        span.innerHTML = span.dataset.width;
+      });
+    </script>
   </body>
 </html>
